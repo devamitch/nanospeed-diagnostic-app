@@ -1,0 +1,94 @@
+{
+	"expo": {
+		"name": "Nanospeed",
+		"slug": "nanospeed",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon.png",
+		"scheme": "nanospeed",
+		"userInterfaceStyle": "automatic",
+		"newArchEnabled": true,
+		"ios": {
+			"googleServicesFile": "./GoogleService-Info.plist",
+			"bundleIdentifier": "com.devamitch.nanospeeddiagnosticapp",
+			"supportsTablet": false,
+			"buildNumber": "1.0.0",
+			"appleTeamId": "J885D3G52A",
+			"infoPlist": {
+				"NSCameraUsageDescription": "Nanospeed uses the camera to scan images of diagnostic testing kits to extract and process test results.",
+				"NSPhotoLibraryUsageDescription": "Nanospeed uses photo library access to allow users to upload or select diagnostic images from storage for processing.",
+				"NSMicrophoneUsageDescription": "Nanospeed does not use the microphone for any purpose.",
+				"NSLocalNetworkUsageDescription": "Required only if device connectivity is used for medical data sync (not applicable in current version).",
+				"ITSAppUsesNonExemptEncryption": false,
+				"UIBackgroundModes": ["fetch", "remote-notification"],
+				"UIDeviceFamily": [1]
+			},
+			"entitlements": {
+				"aps-environment": "production"
+			}
+		},
+		"android": {
+			"googleServicesFile": "./google-services.json",
+			"package": "com.devamitch.nanospeeddiagnosticapp",
+			"permissions": [
+				"android.permission.CAMERA",
+				"android.permission.READ_EXTERNAL_STORAGE",
+				"android.permission.WRITE_EXTERNAL_STORAGE"
+			],
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			}
+		},
+		"web": {
+			"favicon": "./assets/images/favicon.png",
+			"output": "static",
+			"bundler": "metro"
+		},
+		"plugins": [
+			"@react-native-firebase/app",
+			"@react-native-firebase/auth",
+			[
+				"expo-build-properties",
+				{
+					"ios": {
+						"useFrameworks": "static",
+						"infoPlist": {
+							"NSUserTrackingUsageDescription": null
+						}
+					}
+				}
+			],
+			"expo-router",
+			[
+				"expo-splash-screen",
+				{
+					"image": "./assets/images/splash-icon.png",
+					"imageWidth": 200,
+					"resizeMode": "contain",
+					"backgroundColor": "#0cc0df"
+				}
+			],
+			[
+				"react-native-vision-camera",
+				{
+					"cameraPermissionText": "Nanospeed uses your camera to scan test kit results for health data input.",
+					"enableLocation": false
+				}
+			],
+			"react-native-compressor"
+		],
+		"experiments": {
+			"typedRoutes": true
+		},
+		"extra": {
+			"router": {
+				"origin": false
+			},
+			"eas": {
+				"projectId": "f197578e-42f1-49e4-a326-2f3cfff94580"
+			}
+		},
+		"description": "Nanospeed is currently authorized for use in select regions with relevant regulatory compliance for diagnostic hardware. Consult documentation or contact us for details."
+	}
+}

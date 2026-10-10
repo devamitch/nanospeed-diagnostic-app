@@ -1,0 +1,83 @@
+{
+	"project_info": {
+		"project_number": "828466920001",
+		"firebase_url": "https://nspeed-d89cf-default-rtdb.firebaseio.com",
+		"project_id": "nspeed-d89cf",
+		"storage_bucket": "nspeed-d89cf.firebasestorage.app"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:828466920001:android:15ee5ca0f3594fab1d24c0",
+				"android_client_info": {
+					"package_name": "com.devamitch.nanospeed"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "828466920001-jgha3u719ekcu7bugm2b9934gp877kfv.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyDx8dsCjH_DXkzoN_q3cfmp3Y2zZ2-mIqs"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "828466920001-jgha3u719ekcu7bugm2b9934gp877kfv.apps.googleusercontent.com",
+							"client_type": 3
+						},
+						{
+							"client_id": "828466920001-hg1is74q82l53u5p05h4vl2tcvkle1sk.apps.googleusercontent.com",
+							"client_type": 2,
+							"ios_info": {
+								"bundle_id": "com.devamitch.nanospeed"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:828466920001:android:d559d8094475f39f1d24c0",
+				"android_client_info": {
+					"package_name": "com.devamitch.nanospeed"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "828466920001-jgha3u719ekcu7bugm2b9934gp877kfv.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyDx8dsCjH_DXkzoN_q3cfmp3Y2zZ2-mIqs"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "828466920001-jgha3u719ekcu7bugm2b9934gp877kfv.apps.googleusercontent.com",
+							"client_type": 3
+						},
+						{
+							"client_id": "828466920001-hg1is74q82l53u5p05h4vl2tcvkle1sk.apps.googleusercontent.com",
+							"client_type": 2,
+							"ios_info": {
+								"bundle_id": "com.devamitch.nanospeed"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}

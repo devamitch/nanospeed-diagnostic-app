@@ -1,0 +1,33 @@
+{
+	"recommendations": [
+		"rvest.vs-code-prettier-eslint",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-complete-tag",
+		"formulahendry.auto-rename-tag",
+		"naumovs.color-highlight",
+		"anseki.vscode-color",
+		"mikestead.dotenv",
+		"editorconfig.editorconfig",
+		"irongeek.vscode-env",
+		"dbaeumer.vscode-eslint",
+		"donjayamanne.git-extension-pack",
+		"github.codespaces",
+		"github.vscode-pull-request-github",
+		"eamodio.gitlens",
+		"wix.vscode-import-cost",
+		"christian-kohler.path-intellisense",
+		"csstools.postcss",
+		"esbenp.prettier-vscode",
+		"mrmlnc.vscode-scss",
+		"syler.sass-indented",
+		"stylelint.vscode-stylelint",
+		"bradlc.vscode-tailwindcss",
+		"planbcoding.vscode-react-refactor",
+		"dsznajder.es7-react-js-snippets",
+		"mhutchie.git-graph",
+		"donjayamanne.githistory",
+		"visualstudioexptteam.vscodeintellicode",
+		"stringham.move-ts",
+		"rocketseat.rocketseatreactnative"
+	]
+}

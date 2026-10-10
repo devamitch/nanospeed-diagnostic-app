@@ -1,0 +1,68 @@
+// {
+//   "extends": "expo/tsconfig.base",
+//   "compilerOptions": {
+//     "strict": true,
+//     "paths": {
+//       "@/*": [
+//         "./*"
+//       ]
+//     }
+//   },
+//   "include": [
+//     "**/*.ts",
+//     "**/*.tsx",
+//     ".expo/types/**/*.ts",
+//     "expo-env.d.ts"
+//   ]
+// }
+{
+  "extends": "expo/tsconfig.base",
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "constants": ["./constants"],
+      "components": ["./components"],
+      "assets": ["./assets"],
+      "lib": ["./lib"],
+      "@Images/*": ["assets/images/*"],
+      "@Main": ["navigation/main"],
+      "@Stack*": ["navigation/stack"],
+      "@assets/*": ["assets/*"],
+      "@async": ["redux/asyncs"],
+      "@axios": ["core/service/axios/index.ts"],
+      "@base": ["components/Base/index.ts"],
+      "@components": ["components"],
+      "@config": ["core/config"],
+      "@constants": ["core/constants"],
+      "@hooks": ["lib/hooks"],
+      "@icons": ["icons"],
+      "@navigation": ["navigation"],
+      "@navigation/*": ["navigation/*"],
+      "@redux/*": ["redux/*"],
+      "@screens": ["screens"],
+      "@store": ["store"],
+      "@theme": ["core/constants/theme"],
+      "@types": ["redux/types"],
+      "@utils": ["lib/utils"],
+      "@styles": ["styles"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
+}

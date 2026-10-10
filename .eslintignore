@@ -1,0 +1,11 @@
+build
+node_modules
+.github
+.yarn
+babel.config.js
+prettier.config.js
+svg.config.js
+metro.config.js
+react-native.config.js
+shim.js
+react-native-mmkv-plugin.js
